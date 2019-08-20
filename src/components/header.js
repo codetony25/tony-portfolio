@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa"
 import "./header.css"
 
 const Header = ({ siteTitle }) => (
@@ -8,7 +9,9 @@ const Header = ({ siteTitle }) => (
     <div className="left-nav">
       <ul>
         <li>
-          <Link to="/">portfolio</Link>
+          <Link to="/" className="active">
+            portfolio
+          </Link>
         </li>
         <li>
           <Link to="/about">about</Link>
@@ -24,13 +27,22 @@ const Header = ({ siteTitle }) => (
     <div className="right-nav">
       <ul>
         <li>
-          <Link to="/">linkedIn</Link>
+          <a
+            href="https://www.linkedin.com/in/tony-nguyen-87b19585/"
+            target="_blank"
+          >
+            <FaLinkedinIn />
+          </a>
         </li>
         <li>
-          <Link to="/">twitter</Link>
+          <a href="https://github.com/codetony25" target="_blank">
+            <FaGithub />
+          </a>
         </li>
         <li>
-          <Link to="/">github</Link>
+          <a href="https://twitter.com/_codetony" target="_blank">
+            <FaTwitter />
+          </a>
         </li>
       </ul>
     </div>
