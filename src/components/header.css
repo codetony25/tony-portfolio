@@ -13,6 +13,24 @@ header {
   justify-content: space-between;
 }
 
+header .left-nav {
+  padding-left: 3%;
+}
+
+header .left-nav ul {
+  width: 25%;
+  display: flex;
+}
+
+header .left-nav ul a {
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+header .right-nav {
+  padding-right: 3%;
+}
+
 header ul {
   list-style: none;
   display: flex;
