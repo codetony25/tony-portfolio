@@ -7,19 +7,21 @@ import "./header.css"
 const Header = ({ siteTitle }) => (
   <header>
     <div className="left-nav">
-      <ul>
-        <li>
-          <Link to="/" className="active">
-            portfolio
-          </Link>
-        </li>
-        <li>
-          <Link to="/about">about</Link>
-        </li>
-        <li>
-          <Link to="/contact">contact</Link>
-        </li>
-      </ul>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/" className="active">
+              portfolio
+            </Link>
+          </li>
+          <li>
+            <Link to="/about">about</Link>
+          </li>
+          <li>
+            <Link to="/contact">contact</Link>
+          </li>
+        </ul>
+      </nav>
     </div>
     <div className="middle-nav">
       <Link to="/">{siteTitle}</Link>
@@ -30,17 +32,26 @@ const Header = ({ siteTitle }) => (
           <a
             href="https://www.linkedin.com/in/tony-nguyen-87b19585/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaLinkedinIn />
           </a>
         </li>
         <li>
-          <a href="https://github.com/codetony25" target="_blank">
+          <a
+            href="https://github.com/codetony25"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub />
           </a>
         </li>
         <li>
-          <a href="https://twitter.com/_codetony" target="_blank">
+          <a
+            href="https://twitter.com/_codetony"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter />
           </a>
         </li>
