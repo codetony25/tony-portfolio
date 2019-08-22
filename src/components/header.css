@@ -64,3 +64,15 @@ header a {
   color: white;
   text-decoration: none;
 }
+
+header ul.desktop-nav,
+header ul.desktop-social-nav {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  header ul.desktop-nav,
+  header ul.desktop-social-nav {
+    display: flex;
+  }
+}

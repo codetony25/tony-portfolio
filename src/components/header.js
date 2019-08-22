@@ -8,7 +8,7 @@ const Header = ({ siteTitle }) => (
   <header>
     <div className="left-nav">
       <nav>
-        <ul>
+        <ul className="desktop-nav">
           <li>
             <Link to="/" className="active">
               portfolio
@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
       <Link to="/">{siteTitle}</Link>
     </div>
     <div className="right-nav">
-      <ul>
+      <ul className="desktop-social-nav">
         <li>
           <a
             href="https://www.linkedin.com/in/tony-nguyen-87b19585/"
