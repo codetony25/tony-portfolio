@@ -82,9 +82,26 @@ header ul.desktop-social-nav {
   display: none;
 }
 
+header .mobile-nav {
+  cursor: pointer;
+  padding: 20px;
+}
+
+header .mobile-nav svg {
+  height: 1.5em;
+  width: 1.5em;
+  position: absolute;
+  right: 15px;
+  top: 22.5px;
+}
+
 @media (min-width: 992px) {
   header ul.desktop-nav,
   header ul.desktop-social-nav {
     display: flex;
+  }
+
+  header .mobile-nav {
+    display: none;
   }
 }

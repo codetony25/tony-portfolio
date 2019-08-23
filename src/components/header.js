@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa"
+import { FaTwitter, FaLinkedinIn, FaGithub, FaBars } from "react-icons/fa"
 import "./header.css"
 
 const Header = ({ siteTitle }) => (
@@ -27,6 +27,11 @@ const Header = ({ siteTitle }) => (
       <Link to="/">{siteTitle}</Link>
     </div>
     <div className="right-nav">
+      <div className="mobile-nav">
+        <a>
+          <FaBars />
+        </a>
+      </div>
       <ul className="desktop-social-nav">
         <li>
           <a
