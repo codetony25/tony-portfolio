@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+
+html {
+  font-family: "Lato", "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+main {
+  padding-top: 65px;
+}
