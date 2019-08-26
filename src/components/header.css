@@ -11,28 +11,31 @@
 @media (min-width: 1200px) { ... }  */
 
 header {
-  background: rgb(247, 90, 86);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
+  -webkit-align-items: center;
   align-items: center;
-  justify-content: space-between;
-  font-family: "Open Sans";
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  background-color: #f75a56;
+  height: 65px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  position: fixed;
+  display: -webkit-flex;
+  display: flex;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
 }
 
 header .left-nav {
-  padding-left: 3%;
-}
-
-header .left-nav ul {
+  display: block;
+  padding-left: 0%;
+  padding-right: 0%;
+  text-align: left;
+  float: left;
   width: 25%;
-  display: flex;
+  padding-left: 3%;
 }
 
 header .left-nav ul a.active {
@@ -41,13 +44,24 @@ header .left-nav ul a.active {
 
 header .left-nav ul a {
   transition: 0.2s;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400px;
   padding-right: 20px;
 }
 
 header .left-nav ul a:hover {
   font-weight: bold;
+}
+
+header .middle-nav {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  width: 50%;
+  flex: 1;
+  text-align: center;
 }
 
 header .middle-nav a {
@@ -58,12 +72,18 @@ header .middle-nav a {
 }
 
 header .right-nav {
+  width: 25%;
+  text-align: right;
   padding-right: 3%;
 }
 
 header .right-nav ul a {
   font-size: 20px;
   padding-right: 20px;
+}
+
+header .right-nav ul li:last-child a {
+  padding-right: 0;
 }
 
 header ul {
@@ -77,6 +97,16 @@ header a {
   text-decoration: none;
 }
 
+header ul.desktop-nav,
+header ul.desktop-social-nav {
+  display: none;
+}
+
+header .mobile-nav {
+  cursor: pointer;
+  padding: 10px;
+}
+
 header .mobile-nav svg {
   height: 1.5em;
   width: 1.5em;
@@ -86,4 +116,12 @@ header .mobile-nav svg {
 }
 
 @media (min-width: 992px) {
+  header ul.desktop-nav,
+  header ul.desktop-social-nav {
+    display: inline-flex;
+  }
+
+  header .mobile-nav {
+    display: none;
+  }
 }
