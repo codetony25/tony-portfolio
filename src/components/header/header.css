@@ -26,6 +26,8 @@ header {
   top: 0;
   width: 100%;
   z-index: 3;
+  /* Mobile Header */
+  /* height: 100vh; */
 }
 
 header .left-nav {
@@ -104,17 +106,76 @@ header ul.desktop-social-nav {
   display: none;
 }
 
-header .mobile-nav {
+header .navicon {
   cursor: pointer;
   padding: 10px;
 }
 
-header .mobile-nav svg {
+header .navicon svg {
   height: 1.5em;
   width: 1.5em;
   position: absolute;
   right: 15px;
   top: 22.5px;
+}
+
+.mobile-nav {
+  display: none;
+  background-color: #f75a56;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+}
+
+.mobile-nav nav a {
+  font-size: 22px;
+}
+
+.mobile-nav nav a.active {
+  font-weight: 900;
+}
+
+.mobile-nav nav ul {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-top: 62px;
+}
+
+.mobile-nav nav li {
+  text-align: center;
+  padding: 0 0 30px;
+}
+
+.navicon-close {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  padding: 50px;
+}
+
+.navicon-close svg {
+  color: white;
+  height: 30px;
+  width: 30px;
+}
+
+.mobile-social-nav {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 7% 0;
+}
+
+.mobile-social-nav svg {
+  width: 42px;
+  height: 42px;
 }
 
 @media (min-width: 992px) {
@@ -129,7 +190,7 @@ header .mobile-nav svg {
     display: inline-flex;
   }
 
-  header .mobile-nav {
+  header .navicon {
     display: none;
   }
 }
