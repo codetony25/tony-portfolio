@@ -19,8 +19,8 @@ header {
   left: 0;
   margin: 0;
   padding: 0;
-  height: 65px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
   font-family: "Open Sans";
