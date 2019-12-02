@@ -13,6 +13,7 @@ class Hero extends React.Component {
       <div className="main-hero">
         <h1>Tony Tai Nguyen</h1>
         <h2>Full Stack Developer, Software Engineer, Coder, Problem Solver, whatever you want to call me.</h2>
+        <Link to="/contact" className="contact-button">Contact Me</Link>
       </div>
     )
   }
