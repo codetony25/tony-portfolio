@@ -1,6 +1,5 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import WorkItem from "./workItem";
 import "./work.css"
 
 class Work extends React.Component {
@@ -13,7 +12,7 @@ class Work extends React.Component {
       <div className="main-work">
         <ul>
           <li>
-            <a className="lottogopher" href="https://lottogopher.com"></a>
+            <WorkItem />
           </li>
         </ul>
       </div>
