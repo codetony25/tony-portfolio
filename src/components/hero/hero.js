@@ -12,7 +12,7 @@ class Hero extends React.Component {
     return (
       <div className="main-hero">
         <h1>Tony Tai Nguyen</h1>
-        <h2>Full Stack Developer, Software Engineer, Coder, Problem Solver, whatever you want to call me.</h2>
+        <h2>I'm a web developer & programmer living in Los Angeles, CA. I make web applications usually with JavaScript.</h2>
         <Link to="/contact" className="contact-button">Contact Me</Link>
       </div>
     )
