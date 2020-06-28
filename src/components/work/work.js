@@ -12,29 +12,45 @@ class Work extends React.Component {
         <ul>
           <li>
             <div className="work-item">
-              <a href="http://dev.pettreatlove.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="http://dev.pettreatlove.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <PetTreatLoveImage />
               </a>
             </div>
           </li>
           <li>
             <div className="work-item">
-              <a href="https://paintlaughlove.com/" target="_blank" rel="noopener noreferrer">
-                <PaintLaughLoveImage />
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="work-item">
-              <a href="https://victoriamynguyen.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://victoriamynguyen.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <VictoriaMyNguyenImage />
               </a>
             </div>
           </li>
           <li>
             <div className="work-item">
-              <a href="https://www.innokin.com/" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://www.innokin.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <InnokinImage />
+              </a>
+            </div>
+          </li>
+          <li>
+            <div className="work-item">
+              <a
+                href="https://paintlaughlove.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <PaintLaughLoveImage />
               </a>
             </div>
           </li>
