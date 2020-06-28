@@ -1,0 +1,12 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+footer h3 {
+  color: #ddd;
+  font-size: 15px;
+  font-weight: 400;
+}
