@@ -1,0 +1,36 @@
+.contact-page h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.contact-header h2 {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.contact-header {
+  text-align: center;
+  padding-bottom: 60px;
+  padding-top: 80px;
+}
+
+.contact-section {
+  max-width: 800px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-section p {
+  color: #ccc;
+  font-size: 20px;
+  line-height: 20px;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: center;
+}
