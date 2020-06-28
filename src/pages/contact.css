@@ -1,23 +1,23 @@
-.about-page h1 {
+.contact-page h1 {
   font-size: 50px;
   font-weight: 700;
   margin: 0;
   margin-bottom: 15px;
 }
 
-.about-header h2 {
+.contact-header h2 {
   font-size: 22px;
   font-weight: 400;
   margin: 0;
 }
 
-.about-header {
+.contact-header {
   text-align: center;
   padding-bottom: 60px;
   padding-top: 80px;
 }
 
-.about-section {
+.contact-section {
   max-width: 800px;
   width: 100%;
   padding-top: 20px;
@@ -26,10 +26,11 @@
   margin-right: auto;
 }
 
-.about-section p {
+.contact-section p {
   color: #ccc;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 20px;
   padding-right: 5%;
   padding-left: 5%;
+  text-align: center;
 }

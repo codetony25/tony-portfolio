@@ -1,15 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
+import './contact.css';
 
-import Layout from "../components/layout/layout.js"
+import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const ContactPage = () => (
   <Layout>
     <SEO title="Contact" />
-    <h1>Contact Page</h1>
-    <Link to="/">Go back to the homepage</Link>
+    <section className="contact-page">
+      <div className="contact-header">
+        <h1>contact</h1>
+        <h2>where you can reach me?</h2>
+      </div>
+      <div className="contact-section">
+        <p>You can contact me at me@codetony.com</p>
+      </div>
+    </section>
   </Layout>
 )
 
-export default SecondPage
+export default ContactPage

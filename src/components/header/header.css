@@ -26,8 +26,6 @@ header {
   top: 0;
   width: 100%;
   z-index: 3;
-  /* Mobile Header */
-  /* height: 100vh; */
 }
 
 header .left-nav {
@@ -49,6 +47,7 @@ header .left-nav ul a {
   font-size: 18px;
   font-weight: 400px;
   padding-right: 20px;
+  transition: 0.2s;
 }
 
 header .left-nav ul a:hover {
@@ -84,6 +83,7 @@ header .right-nav {
 header .right-nav ul a {
   font-size: 20px;
   padding-right: 20px;
+  transition: 0.2s;
 }
 
 header .right-nav ul li:last-child a {

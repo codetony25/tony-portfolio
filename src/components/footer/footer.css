@@ -5,8 +5,18 @@ footer {
   padding: 60px 0;
 }
 
+footer a {
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  border-bottom: 1px solid #ddd;
+}
+
 footer h3 {
   color: #ddd;
   font-size: 15px;
   font-weight: 400;
+  margin-bottom: 0;
 }
