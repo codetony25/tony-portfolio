@@ -13,7 +13,7 @@ class Work extends React.Component {
           <li>
             <div className="work-item">
               <a
-                href="http://dev.pettreatlove.com/"
+                href="https://codetony25.github.io/pet-treat-love/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
