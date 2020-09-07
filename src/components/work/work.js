@@ -1,7 +1,7 @@
 import React from "react"
 import InnokinImage from "./innokin-image"
 import PetTreatLoveImage from "./pettreatlove-image"
-import PaintLaughLoveImage from "./paintlaughlove-image"
+import LottoGopherEmailImage from "./lottogopher-image"
 import VictoriaMyNguyenImage from "./victoriamynguyen-image"
 import "./work.css"
 
@@ -46,11 +46,11 @@ class Work extends React.Component {
           <li>
             <div className="work-item">
               <a
-                href="https://paintlaughlove.com/"
+                href="https://codetony25.github.io/lottogopher-emails/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <PaintLaughLoveImage />
+                <LottoGopherEmailImage />
               </a>
             </div>
           </li>
