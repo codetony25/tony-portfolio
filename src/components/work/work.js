@@ -1,5 +1,5 @@
 import React from "react"
-import InnokinImage from "./innokin-image"
+import TechFoxImage from "./tech-fox-image"
 import PetTreatLoveImage from "./pettreatlove-image"
 import LottoGopherEmailImage from "./lottogopher-image"
 import VictoriaMyNguyenImage from "./victoriamynguyen-image"
@@ -10,6 +10,17 @@ class Work extends React.Component {
     return (
       <div className="main-work">
         <ul>
+        <li>
+            <div className="work-item">
+              <a
+                href="https://tech.fox.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <TechFoxImage />
+              </a>
+            </div>
+          </li>
           <li>
             <div className="work-item">
               <a
@@ -29,17 +40,6 @@ class Work extends React.Component {
                 rel="noopener noreferrer"
               >
                 <VictoriaMyNguyenImage />
-              </a>
-            </div>
-          </li>
-          <li>
-            <div className="work-item">
-              <a
-                href="https://www.innokin.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <InnokinImage />
               </a>
             </div>
           </li>
