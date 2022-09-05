@@ -4,6 +4,10 @@
   "description": "Tony Nguyen's (codetony) Portfolio",
   "version": "0.1.0",
   "author": "Tony Nguyen <codetony@outlook.com>",
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": "=13.14.0"
+  },
   "dependencies": {
     "gatsby": "^2.13.64",
     "gatsby-image": "^2.2.8",

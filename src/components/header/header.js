@@ -20,7 +20,9 @@ class Header extends React.Component {
   }
 
   render() {
-    const { siteTitle } = this.props
+    const { siteTitle } = this.props;
+
+    // TODO: add className="active"
 
     return (
       <header
@@ -30,7 +32,7 @@ class Header extends React.Component {
           <nav>
             <ul className="desktop-nav">
               <li>
-                <Link to="/" className="active">
+                <Link to="/">
                   portfolio
                 </Link>
               </li>
