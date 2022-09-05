@@ -2,7 +2,7 @@ import React from "react"
 import TechFoxImage from "./tech-fox-image"
 import PetTreatLoveImage from "./pettreatlove-image"
 import LottoGopherEmailImage from "./lottogopher-image"
-import VictoriaMyNguyenImage from "./victoriamynguyen-image"
+import TonyAndNouaImage from "./tony-and-noua-image"
 import "./work.css"
 
 class Work extends React.Component {
@@ -35,11 +35,11 @@ class Work extends React.Component {
           <li>
             <div className="work-item">
               <a
-                href="https://victoriamynguyen.com/"
+                href="https://tony-and-noua.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <VictoriaMyNguyenImage />
+                <TonyAndNouaImage />
               </a>
             </div>
           </li>
