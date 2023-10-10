@@ -13,9 +13,9 @@ const AboutPage = () => (
         <h2>who am I?</h2>
       </div>
       <div className="about-section">
-        <p>My name is Tony Tai Nguyen, I live in Los Angeles, California.</p>
-        <p>I'm a full stack software engineer and I specialize in building web or mobile applications.</p>
-        <p>Have questions? Contact me at me@codetony.com</p>
+        <p>My name is Tony Tai Nguyen, I reside in Los Angeles, California.</p>
+        <p>I'm a full stack software engineer and I specialize in building web or mobile applications. My GitHub <a href="https://github.com/codetony25">here</a></p>
+        <p>Have questions? Contact me at me@codetony.com or visit my <a href="www.linkedin.com/in/tony-nguyen-87b19585" target="_blank">LinkedIn</a></p>
       </div>
     </section>
   </Layout>
